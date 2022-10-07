@@ -14,7 +14,7 @@ export default function Weather(props) {
         humidity: response.data.main.humidity,
         date: new Date(response.data.dt * 1000),
         description:response.data.weather[0].description,
-        iconUrl:'https://cdn3.iconfinder.com/data/icons/tango-icon-library/48/weather-clear-512.png',
+        icon:response.data.weather[0].icon,
         wind:response.data.wind.speed,
         city:response.data.name,
       });

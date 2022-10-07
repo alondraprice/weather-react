@@ -5,11 +5,11 @@
 }
 
 .overview {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.weather-temperature img {
-  margin-right: 5px;
+.weather-temperature canvas {
+  margin-right: 10px;
   float: left;
   height: 64px;
   width: 64px;
@@ -17,7 +17,7 @@
 
 .weather-temperature strong {
   color: rgb(73, 78, 78);
-  font-size: 64px;
+  font-size: 65px;
   font-weight: 400;
   line-height: 1;
 }
