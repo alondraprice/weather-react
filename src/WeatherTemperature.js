@@ -12,7 +12,6 @@ export default function WeatherTemperature(props){
     }
    
     if (unit === "fahrenheit"){
-
     return (
       <div className="WeatherTemperature">
         <strong className="temperature">{Math.round(props.fahrenheit)}</strong>
